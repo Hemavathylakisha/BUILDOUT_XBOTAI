@@ -52,7 +52,7 @@ export default function ChatWindow() {
               style={{ width: "40px" }}
               className="mb-2"
             />
-            <h5 className="fw-bold">Bot AI</h5>
+            {/* <h5 className="fw-bold">Bot AI</h5> */}
           </div>
           <nav className="nav flex-column w-100 px-3">
             <Link to="/" onClick={() => setMessages([])}>
@@ -77,14 +77,13 @@ export default function ChatWindow() {
        
         <div className="col p-4">
              {/* Page Header */}
-         <h1 className="fw-bold mb-3">Bot AI</h1>
 
           {/* Chat Window */}
           <div
             className="chat-container mb-3 d-flex flex-column"
             style={{ height: "400px", overflowY: "auto" }}
           >
-             <h5 className="fw-bold">Bot AI</h5>
+             <h2 className="fw-bold">Bot AI</h2>
             {/* Quick Suggestions */}
             {messages.length === 0 && (
               <div className="text-center mb-3 mt-5">
