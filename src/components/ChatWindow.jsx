@@ -84,7 +84,7 @@ export default function ChatWindow() {
             className="chat-container mb-3 d-flex flex-column"
             style={{ height: "400px", overflowY: "auto" }}
           >
-             {/* <h5 className="fw-bold">Bot AI</h5> */}
+             <h5 className="fw-bold">Bot AI</h5>
             {/* Quick Suggestions */}
             {messages.length === 0 && (
               <div className="text-center mb-3 mt-5">
