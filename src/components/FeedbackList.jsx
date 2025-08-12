@@ -25,7 +25,7 @@ export default function FeedbackList() {
               style={{ width: "40px" }}
               className="mb-2"
             />
-            <h5 className="fw-bold">Bot AI</h5>
+           
           </div>
           <nav className="nav flex-column w-100 px-3">
             <Link to="/">

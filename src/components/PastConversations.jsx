@@ -20,7 +20,7 @@ export default function PastConversations() {
               style={{ width: "40px" }}
               className="mb-2"
             />
-            {/* <h5 className="fw-bold">Bot AI</h5> */}
+          
           </div>
           <nav className="nav flex-column w-100 px-3">
             <Link to="/">
@@ -41,7 +41,7 @@ export default function PastConversations() {
 
         {/* Main Content */}
         <div className="col p-4">
-         <h2 className="fw-bold">Bot AI</h2>    
+            
             <h2 className="text-center">Conversation History</h2>
           <h5 className="fw-bold mb-3">Today's Chat</h5>
 
